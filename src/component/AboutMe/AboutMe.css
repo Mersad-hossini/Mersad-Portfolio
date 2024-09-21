@@ -1,0 +1,183 @@
+#about {
+  background: #f5f5f5;
+  padding-top: 5rem;
+  padding-bottom: 7rem;
+}
+#about .section-intro {
+  margin-bottom: 3rem;
+}
+
+.intro-info {
+  margin-top: 4.2rem;
+  margin-right: -30px;
+  margin-left: -30px;
+}
+.intro-info img {
+  height: 9rem;
+  width: 9rem;
+  border-radius: 50%;
+  margin: 0.9rem 0 0 0;
+  float: left;
+}
+.intro-info .lead {
+  text-align: left;
+  padding-left: 13rem;
+}
+
+.about-content {
+  position: relative;
+  text-align: left;
+  max-width: 850px;
+  margin-bottom: 3.6rem;
+}
+.about-content h3 {
+  font-family: "poppins-bold", sans-serif;
+  font-size: 1.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.25rem;
+}
+.about-content .info-list {
+  list-style: none;
+  margin-left: 0;
+}
+.about-content .info-list li {
+  padding: 0 0 1.5rem 0;
+  margin-bottom: 0.6rem;
+}
+.about-content .info-list li strong {
+  font-family: "poppins-bold", sans-serif;
+  color: #313131;
+  text-transform: uppercase;
+  letter-spacing: 0.2rem;
+  font-size: 1.5rem;
+  line-height: 3rem;
+}
+.about-content .info-list li span {
+  display: block;
+  font-family: "poppins-regular", sans-serif;
+  color: #888888;
+  font-size: 1.5rem;
+  line-height: 1;
+}
+.about-content .skill-bars {
+  margin-top: 6rem;
+}
+
+.button-section {
+  text-align: center;
+}
+.button-section .button {
+  width: 250px;
+}
+.button-section [class*="col-"] .button:first-child {
+  margin-right: 4rem;
+}
+
+
+@media only screen and (max-width: 1024px) {
+  .intro-info {
+    margin-right: 0;
+    margin-left: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .intro-info img {
+    height: 7.8rem;
+    width: 7.8rem;
+  }
+  .intro-info .lead {
+    padding-left: 11rem;
+  }
+  .about-content h3 {
+    text-align: center;
+  }
+  .about-content .info-list,
+  .about-content .skill-bars {
+    margin-bottom: 4.2rem;
+  }
+  .button-section .button {
+    width: 100%;
+    margin-bottom: 3rem;
+  }
+  .button-section [class*="col-"] .button:first-child {
+    margin-right: 0;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .intro-info {
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .intro-info img {
+    height: 6.6rem;
+    width: 6.6rem;
+    float: none;
+    display: inline-block;
+  }
+  .intro-info .lead {
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+/* Skills Percent */
+.skill-bars li .percent5 {
+  width: 5%;
+}
+.skill-bars li .percent10 {
+  width: 10%;
+}
+.skill-bars li .percent15 {
+  width: 15%;
+}
+.skill-bars li .percent20 {
+  width: 20%;
+}
+.skill-bars li .percent25 {
+  width: 25%;
+}
+.skill-bars li .percent30 {
+  width: 30%;
+}
+.skill-bars li .percent35 {
+  width: 35%;
+}
+.skill-bars li .percent40 {
+  width: 40%;
+}
+.skill-bars li .percent45 {
+  width: 45%;
+}
+.skill-bars li .percent50 {
+  width: 50%;
+}
+.skill-bars li .percent55 {
+  width: 55%;
+}
+.skill-bars li .percent60 {
+  width: 60%;
+}
+.skill-bars li .percent65 {
+  width: 65%;
+}
+.skill-bars li .percent70 {
+  width: 70%;
+}
+.skill-bars li .percent75 {
+  width: 75%;
+}
+.skill-bars li .percent80 {
+  width: 80%;
+}
+.skill-bars li .percent85 {
+  width: 85%;
+}
+.skill-bars li .percent90 {
+  width: 90%;
+}
+.skill-bars li .percent95 {
+  width: 95%;
+}
+.skill-bars li .percent100 {
+  width: 100%;
+}
